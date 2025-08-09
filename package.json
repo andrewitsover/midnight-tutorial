@@ -1,0 +1,21 @@
+{
+  "name": "midnight-tutorial",
+  "version": "1.0.0",
+  "description": "midnight tutorial",
+  "license": "MIT",
+  "author": "Andrew Jones",
+  "type": "module",
+  "main": "./src/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "migrate": "node dist/migrate.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@andrewitsover/midnight": "^1.0.6"
+  }
+}
