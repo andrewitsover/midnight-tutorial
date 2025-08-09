@@ -1,7 +1,7 @@
 # 🌒 Midnight Tutorial
 This is a sample project that shows how you might setup your own project using Midnight. 
 
-```src/db.ts```: the path to the database. 
+```src/db.ts```: initialises the database. 
 
 ```src/schema.ts```: the table definitions.
 
